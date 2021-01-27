@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Game.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,6 @@ namespace Game.Abstract
 {
     interface ICheckPlayerService
     {
+        bool CheckifRealPerson(Player player); 
     }
 }

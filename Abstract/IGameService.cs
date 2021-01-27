@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Game.Abstract
 {
-    class IGameService
+    public interface IGameService
     {
+        void Add();
+        void Update();
+        void Delete();
     }
 }
